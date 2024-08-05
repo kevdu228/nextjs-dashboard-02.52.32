@@ -1,8 +1,8 @@
 import { GlobeAltIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/font';
 
 export default function AcmeLogo() {
-  return (
+  return (  
     <div
       className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
     >
